@@ -37,7 +37,7 @@ return arr.sort(function(a,b){
  });
  
  }
-const totalRevenue=function  (driver){
+ function totalRevenue (driver){
    return driver.reduce(function(a,el){
      return a +=el.revenue
    },0);
@@ -46,7 +46,7 @@ const totalRevenue=function  (driver){
 function averageRevenue(driver){
   
     
-    return totalRevenue/driver.length;
+    return totalRevenue(driver)/driver.length;
     
  
 }
