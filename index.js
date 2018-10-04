@@ -48,5 +48,5 @@ function averageRevenue(driver){
      let sum =a+el.revenue;
     return sum/driver.length;
     
-  },0);
+  });
 }
