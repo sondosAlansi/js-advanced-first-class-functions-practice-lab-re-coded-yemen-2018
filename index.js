@@ -40,6 +40,6 @@ return arr.sort(function(a,b){
  const totalRevenue=function (driver){
    return driver.reduce(function(a,el){
      return a +=el.revenue
-   });
+   },0);
    
  }
