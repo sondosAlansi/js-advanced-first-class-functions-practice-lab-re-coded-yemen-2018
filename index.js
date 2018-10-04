@@ -39,7 +39,7 @@ return arr.sort(function(a,b){
  }
  function totalRevenue(driver){
    return driver.reduce(function(a,el){
-     return a+=el.revenue
+     return a +=el.revenue
    });
    
  }
