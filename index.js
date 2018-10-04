@@ -45,8 +45,8 @@ return arr.sort(function(a,b){
  }
 function averageRevenue(driver){
   return driver.reduce(function(a,el){
-     a=a+el.revenue;
-    return a/driver.length;
+     let sum =a+el.revenue;
+    return sum/driver.length;
     
   },0);
 }
