@@ -48,5 +48,5 @@ function averageRevenue(driver){
      a=a+el.revenue;
     return a/driver.length;
     
-  });
+  },0);
 }
