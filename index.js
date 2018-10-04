@@ -43,4 +43,10 @@ return arr.sort(function(a,b){
    },0);
    
  }
-function 
+function averageRevenue(driver){
+  return driver.reduce(function(a,el){
+     a=a+el.revenue;
+    return a/driver.length;
+    
+  });
+}
